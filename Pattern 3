@@ -1,0 +1,28 @@
+//This time we will be building a reverse of the previous pattern
+
+/*
+
+*****
+****
+***
+**
+*
+
+*/
+
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+      int i,j;
+      for(i=0; i<5; i++)
+      {
+            for(j=i; j<5; j++)
+            {
+                  cout<<"*";
+             }
+         cout<<endl;
+       }
+getch();
+}
