@@ -1,0 +1,30 @@
+//The next patter we will be working on is
+
+/*    
+
+*
+**
+*** 
+****
+*****   
+
+*/
+      
+// The logic here is simple. The no of rows and columns for each iteration are equal.
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+    int i,j;
+    for(i=0; i<5; i++) //rows
+    {
+        for(j=0; j<=i; J++) //column
+            {
+                cout<<"*";
+             }
+      cout<<endl;
+    }
+getch();
+}
+
