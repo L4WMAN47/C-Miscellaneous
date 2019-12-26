@@ -1,2 +1,8 @@
 Learning Pattern building is important as it helps you learn the concept of nested loops.
 Also, Learning Pattern building is important from both exam and interview point of view.
+
+You just have to take of the following points while building a pattern:-
+1. Count the number of Rows
+2. Count the "Maximum" No of Columns.
+
+The above mentioned points are the fundamentals of pattern building which should be taken care of in the initial stage.
