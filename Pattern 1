@@ -1,10 +1,10 @@
-This is the most basic pattern 
+//This is the most basic pattern 
 
-*****
-*****
-*****
-*****
-*****
+/*	*****
+	*****
+	*****
+	*****
+	*****		*/
 
 #include<iostream.h>
 #include<conio.h>
@@ -22,3 +22,34 @@ clrscr();// It is just used to clear the previous outputs from the scree. Usuall
 	}
 getch();
 }
+
+//Sometimes, we are asked to use numerics or alphabets in place of symbols. For example
+
+/*	12345
+	12345
+	12345
+	12345
+	12345		*/
+	
+	
+	
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();// It is just used to clear the previous outputs from the scree. Usually used for TURBO like compilers
+	int i,j;
+	for(i=0; i<5; i++)//rows
+	{
+		for(j=0; j<5; j++)//columns
+		{
+			cout<<"j+1"; // Here we are printing the column number in place of the symbol. +1 is taken to avoid printing 0
+		}
+	cout<<endl;
+	}
+getch();
+}
+
+
+
+
