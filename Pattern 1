@@ -1,0 +1,24 @@
+This is the most basic pattern 
+
+*****
+*****
+*****
+*****
+*****
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();// It is just used to clear the previous outputs from the scree. Usually used for TURBO like compilers
+	int i,j;
+	for(i=0; i<5; i++)//rows
+	{
+		for(j=0; j<5; j++)//columns
+		{
+			cout<<"*";
+		}
+	cout<<endl;
+	}
+getch();
+}
